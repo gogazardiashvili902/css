@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+   background-color: darkgray;
+   background: url('https://images.unsplash.com/photo-1630704236714-b9ae325f1aad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80' ) bottom no-repeat ;
+   background-size: cover;
+   }
+   
+   h1{
+       color:#0000ff ;
+   }
+
+   footer {
+       padding-top: 20px;
+       padding-bottom: 60px;
+       text-align: center;
+   }
+
+   footer .links{
+       margin-bottom: 50px;
+   }
+   footer .links > a {
+       color: darkslateblue;
+       padding: 0 25px;
+       font-size: 13px;
+       font-weight: 600;
+       letter-spacing: .1rem;
+       text-decoration: none;
+       text-transform: uppercase;
+
+   }
+
+   .copyright {
+       color:rgb(80, 6, 6) ;
+       font-family: 'Times New Roman', Times, serif;
+   }
+       
+   .news{
+       background-color: seashell;
+       padding: 50px 0 32px;
+   }
+   article {
+       width: 768px;
+       margin: 0 auto 32px;
+       padding: 6px 15px;
+       border-bottom: 1px solid rgb(128, 128, 128);
+   }
+   
+   article a {
+       color: rgb(33, 37, 41);
+       text-decoration: none;
+   }
+
+   article a:hover {
+       color:#0085a1
+   }
+
+   article h2 {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-bottom: 5px;
+       
+   }
+   
+   .article-meta {
+       color: rgb(0, 0, 255);
+       margin-bottom: 5px;
+   }
+
+   article img {
+       width: 100%;
+       height: 300px;
+       object-fit: cover;
+   }
+   h2::before {
+       content:"NEW" ;
+       color: red;
+       margin: 20px;
+   }
+   .news2 {
+    background-color: rgba(184, 26, 26, 0.699);
+    padding: 50px 0 32px;
+   }
+   .article-meta2 {
+    color: rgb(22, 175, 60);
+    margin-bottom: 5px;
+}
+h3::before {
+    content:"NEW" ;
+    color: rgb(76, 0, 255);
+    margin: 20px;
+}
+article h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta3 {
+    color: rgb(175, 22, 35);
+    margin-bottom: 5px;
+}
+ article h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+        font-size: x-large;
+}
+
+.article-meta4 {
+    color: rgb(93, 22, 175);
+    margin-bottom: 5px;
+}
+
+article h5 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+     }
+     article h5 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+        font-size: x-large;
+}
+.news4 {
+    background-color: rgba(26, 184, 118, 0.699);
+    padding: 50px 0 32px;
+}
+
+
+ .article-meta5 {
+        color: rgb(93, 22, 175);
+        margin-bottom: 5px;   
+ } 
+
+ article h6 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 5px;
+     font-size: x-large;
+}
